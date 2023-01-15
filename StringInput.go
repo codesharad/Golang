@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Println("ENter your name")
 	str, _ := reader.ReadString('\n')
-	str = strings.Replace(str, "\n", "", -1)
+	//str = strings.Replace(str, "\n", "", -1)
 
 	//name, _ := strconv.Atoi(str)
 
